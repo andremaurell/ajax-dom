@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.movie-details-container {
+    text-align: left;
+}
+
+.movie-details-container p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.cast-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Garante que os itens do elenco se movam para a próxima linha quando não houver espaço suficiente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cast-list li {
+    width: 200px; /* A largura do bloco do ator */
+    margin: 10px; /* Espaçamento entre os blocos de atores */
+    text-align: center;
+  }
+  
+  .cast-list img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner pai */
+    border-radius: 50%; /* Adiciona bordas arredondadas às imagens */
+  }
+  
+  .cast-list li p {
+    margin: 5px 0 0; /* Espaçamento entre a imagem e o nome do ator */
+  }
